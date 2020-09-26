@@ -1,0 +1,31 @@
+{
+  "name": "spectacle-code-slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alain Armand <aarmand.inbox@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "component-raf": "^1.2.0",
+    "component-tween": "^1.2.0",
+    "lodash.clamp": "^4.0.3",
+    "lodash.memoize": "^4.1.2",
+    "lodash.padstart": "^4.6.1",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "spectacle": "^5.7.1"
+  }
+}
